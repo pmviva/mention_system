@@ -60,7 +60,7 @@ end
 ###
 # Describes DummyMentionee
 ###
-describe DummyMentionee do
+describe DummyMentionee, type: :model do
   ###
   # It behaves like MentionSystem::Mentionee
   ###

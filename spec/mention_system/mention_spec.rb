@@ -3,7 +3,7 @@ require 'spec_helper'
 ###
 # Describes MentionSystem::Mention
 ###
-describe MentionSystem::Mention do
+describe MentionSystem::Mention, type: :model do
   ###
   # Let mentionee be DummyMentionee.create
   ###

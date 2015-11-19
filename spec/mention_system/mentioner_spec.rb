@@ -87,7 +87,7 @@ end
 ###
 # Describes DummyMentioner
 ###
-describe DummyMentioner do
+describe DummyMentioner, type: :model do
   ###
   # It behaves like MentionSystem::Mentioner
   ###

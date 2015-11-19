@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/pmviva/mention_system.png?branch=master)](https://travis-ci.org/pmviva/mention_system)
 [![Gem Version](https://badge.fury.io/rb/mention_system.svg)](http://badge.fury.io/rb/mention_system)
+[![Dependency Status](https://gemnasium.com/pmviva/mention_system.svg)](https://gemnasium.com/pmviva/mention_system)
+[![Code Climate](https://codeclimate.com/github/pmviva/mention_system/badges/gpa.svg)](https://codeclimate.com/github/pmviva/mention_system)
 
 An active record mention system developed using ruby on rails 4.1 applying domain driven design and test driven development principles.
 

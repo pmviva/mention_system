@@ -1,0 +1,7 @@
+--readme README.md
+--title 'MentionSystem Documentation'
+--charset utf-8
+--embed-mixins
+--private
+--protected
+'lib/**/*.rb'

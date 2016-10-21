@@ -8,10 +8,12 @@ rvm:
   - 2.2.3
 
 gemfile:
-  - gemfiles/rails4.1.13.gemfile
-  - gemfiles/rails4.1.14.gemfile
-  - gemfiles/rails4.2.4.gemfile
-  - gemfiles/rails4.2.5.gemfile
+  - gemfiles/rails4.1.15.gemfile
+  - gemfiles/rails4.1.16.gemfile
+  - gemfiles/rails4.2.7.gemfile
+  - gemfiles/rails4.2.7.1.gemfile
+  - gemfiles/rails5.0.0.gemfile
+  - gemfiles/rails5.0.0.1.gemfile
 
 install:
   - "gem install bundler"

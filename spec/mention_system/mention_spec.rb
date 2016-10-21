@@ -150,9 +150,9 @@ describe MentionSystem::Mention, type: :model do
     # Should scope mentions by mentionee type
     ####
     it "should scope mentions by mentionee type" do
-      scope = MentionSystem::Mention.where(mentionee_type: DummyMentionee)
+      scope = MentionSystem::Mention.where(mentionee_type: "DummyMentionee")
 
-      expect(MentionSystem::Mention.scope_by_mentionee_type(DummyMentionee)).to eq(scope)
+      expect(MentionSystem::Mention.scope_by_mentionee_type("DummyMentionee")).to eq(scope)
     end
 
     ###
@@ -168,9 +168,9 @@ describe MentionSystem::Mention, type: :model do
     # Should scope mentions by mentioner type
     ####
     it "should scope mentions by mentioner type" do
-      scope = MentionSystem::Mention.where(mentioner_type: DummyMentioner)
+      scope = MentionSystem::Mention.where(mentioner_type: "DummyMentioner")
 
-      expect(MentionSystem::Mention.scope_by_mentioner_type(DummyMentioner)).to eq(scope)
+      expect(MentionSystem::Mention.scope_by_mentioner_type("DummyMentioner")).to eq(scope)
     end
   end
 end

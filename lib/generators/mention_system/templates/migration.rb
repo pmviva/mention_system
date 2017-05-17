@@ -3,7 +3,7 @@
 #
 # This class defines the create mentions migration in mention system
 ###
-class CreateMentions < ActiveRecord::Migration
+class CreateMentions < ActiveRecord::Migration[5.0]
   ###
   # Changes the database
   ###

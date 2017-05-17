@@ -3,7 +3,7 @@
 #
 # This class defines the create dummy mentioners migration in mention system
 ###
-class CreateDummyMentioners < ActiveRecord::Migration
+class CreateDummyMentioners < ActiveRecord::Migration[5.0]
   ###
   # Changes the database
   ###

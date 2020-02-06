@@ -1,15 +1,17 @@
+# Gitignore configuration file
+
+*.a
+*.bundle
+*.o
+*.so
+/_yardoc/
 /.bundle/
 /.yardoc
-/Gemfile.lock
-/_yardoc/
 /coverage/
 /doc/
+/Gemfile.lock
 /gemfiles/*.lock
 /pkg/
 /spec/reports/
 /tmp/
-*.bundle
-*.so
-*.o
-*.a
 mkmf.log

@@ -1,4 +1,4 @@
-Copyright (c) 2014 Pablo Martin Viva
+Copyright (c) 2014 - 2020 Pablo Martin Viva
 
 MIT License
 

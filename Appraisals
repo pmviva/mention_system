@@ -1,23 +1,3 @@
-appraise "rails5.0.0" do
-  gem "rails", "5.0.0"
-end
-
-appraise "rails5.0.0.1" do
-  gem "rails", "5.0.0.1"
-end
-
-appraise "rails5.1.0" do
-  gem "rails", "5.1.0"
-end
-
-appraise "rails5.1.1" do
-  gem "rails", "5.1.1"
-end
-
-appraise "rails5.1.2" do
-  gem "rails", "5.1.2"
-end
-
-appraise "rails5.2.0" do
-  gem "rails", "5.2.0"
+appraise "rails5.2.4.1" do
+  gem "rails", "5.2.4.1"
 end

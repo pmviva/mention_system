@@ -9,12 +9,7 @@ rvm:
   - 2.6.3
 
 gemfile:
-  - gemfiles/rails5.0.0.gemfile
-  - gemfiles/rails5.0.0.1.gemfile
-  - gemfiles/rails5.1.0.gemfile
-  - gemfiles/rails5.1.1.gemfile
-  - gemfiles/rails5.1.2.gemfile
-  - gemfiles/rails5.2.0.gemfile
+  - gemfiles/rails5.4.1.gemfile
 
 install:
   - "gem install bundler"

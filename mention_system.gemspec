@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Pablo Martin Viva"]
   spec.email         = ["pmviva@gmail.com"]
   spec.summary       = %q{An active record like system.}
-  spec.description   = %q{An active record mention system developed using ruby on rails 5 applying domain driven design and test driven development principles.}
+  spec.description   = %q{An active record mention system developed using ruby on rails applying domain driven design and test driven development principles.}
   spec.homepage      = "http://github.com/pmviva/mention_system"
   spec.license       = "MIT"
 

@@ -5,9 +5,11 @@
 [![Dependency Status](https://gemnasium.com/pmviva/mention_system.svg)](https://gemnasium.com/pmviva/mention_system)
 [![Code Climate](https://codeclimate.com/github/pmviva/mention_system/badges/gpa.svg)](https://codeclimate.com/github/pmviva/mention_system)
 
-An active record mention system developed using ruby on rails 5 applying domain driven design and test driven development principles.
+An active record mention system developed using ruby on rails applying domain driven design and test driven development principles.
 
 For rails 4 support use branch v0.0.7-stable.
+
+For rails 5 support use branch v0.1.1-stable.
 
 This gem is heavily influenced by cmer/socialization.
 

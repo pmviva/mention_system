@@ -22,10 +22,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", [ ">= 5.0", "< 6.0" ]
 
   spec.add_development_dependency "appraisal", "~> 2.2"
-  spec.add_development_dependency "bundler", "~> 1.14"
-  spec.add_development_dependency "rake", "~> 12.0"
-  spec.add_development_dependency "rspec", "~> 3.6"
-  spec.add_development_dependency "shoulda-matchers", "~> 3.1"
-  spec.add_development_dependency "sqlite3", "~> 1.3"
+  spec.add_development_dependency "bundler", "~> 2.1"
+  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rspec", "~> 3.9"
+  spec.add_development_dependency "shoulda-matchers", "~> 4.2"
+  spec.add_development_dependency "sqlite3", "~> 1.4"
   spec.add_development_dependency "yard", "~> 0.9"
 end

@@ -1,3 +1,5 @@
+# Yard configuration file
+
 --readme README.md
 --title 'MentionSystem Documentation'
 --charset utf-8

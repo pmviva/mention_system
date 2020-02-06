@@ -1,2 +1,4 @@
+# RSpec configuration file
+
 --color
 --require spec_helper

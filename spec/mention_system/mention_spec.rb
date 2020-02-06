@@ -174,4 +174,3 @@ describe MentionSystem::Mention, type: :model do
     end
   end
 end
-

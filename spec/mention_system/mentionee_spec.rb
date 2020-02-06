@@ -66,4 +66,3 @@ describe DummyMentionee, type: :model do
   ###
   it_behaves_like MentionSystem::Mentionee
 end
-

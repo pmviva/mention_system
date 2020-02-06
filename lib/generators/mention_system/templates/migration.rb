@@ -44,4 +44,3 @@ class CreateMentions < ActiveRecord::Migration[5.0]
     add_index :mentions, [:mentionee_id, :mentionee_type, :mentioner_id, :mentioner_type], name: "mentions_mentionee_mentioner_idx", unique: true
   end
 end
-

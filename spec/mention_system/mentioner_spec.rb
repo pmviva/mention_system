@@ -79,7 +79,7 @@ shared_examples_for MentionSystem::Mentioner do
     it "should scope mentionees filtered by mentionee type" do
       scope = MentionSystem::Mention.scope_by_mentioner(mentioner).scope_by_mentionee_type(DummyMentionee)
 
-      expect(mentioner.mentionees_by(DummyMentionee)).to eq(scope)      
+      expect(mentioner.mentionees_by(DummyMentionee)).to eq(scope)
     end
   end
 end
@@ -93,4 +93,3 @@ describe DummyMentioner, type: :model do
   ###
   it_behaves_like MentionSystem::Mentioner
 end
-

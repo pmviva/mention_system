@@ -119,4 +119,3 @@ class DummyMentioner < ActiveRecord::Base
   # Acts as mentioner
   act_as_mentioner
 end
-

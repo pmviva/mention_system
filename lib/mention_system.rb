@@ -43,4 +43,3 @@ module MentionSystem
 end
 
 ActiveRecord::Base.extend MentionSystem
-

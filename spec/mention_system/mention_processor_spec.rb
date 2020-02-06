@@ -152,4 +152,3 @@ describe MentionSystem::MentionProcessor do
     end
   end
 end
-

@@ -152,4 +152,3 @@ module MentionSystem
       end
   end
 end
-

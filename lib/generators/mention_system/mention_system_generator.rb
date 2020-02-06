@@ -43,4 +43,3 @@ class MentionSystemGenerator < Rails::Generators::Base
     migration_template 'migration.rb', 'db/migrate/create_mentions.rb'
   end
 end
-

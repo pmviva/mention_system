@@ -1,2 +1,1 @@
 require 'shoulda/matchers'
-

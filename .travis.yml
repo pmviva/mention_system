@@ -9,7 +9,10 @@ rvm:
   - 2.6.3
 
 gemfile:
-  - gemfiles/rails5.4.1.gemfile
+  - gemfiles/rails6.0.0.gemfile
+  - gemfiles/rails6.0.1.gemfile
+  - gemfiles/rails6.0.2.gemfile
+  - gemfiles/rails6.0.2.1.gemfile
 
 install:
   - "gem install bundler"

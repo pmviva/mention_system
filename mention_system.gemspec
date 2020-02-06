@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.required_ruby_version = Gem::Requirement.new(">= 2.5.5")
 
-  spec.add_dependency "rails", [ ">= 5.0", "< 6.0" ]
+  spec.add_dependency "rails", [ ">= 6.0", "< 7.0" ]
 
   spec.add_development_dependency "appraisal", "~> 2.2"
   spec.add_development_dependency "bundler", "~> 2.1"

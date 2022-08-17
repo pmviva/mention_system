@@ -17,7 +17,6 @@ jobs:
           - rails6.0.0
           - rails6.0.1
           - rails6.0.2.1
-          - rails6.0.2
           - rails7
           - rails_main
     env:
@@ -49,7 +48,6 @@ jobs:
           - rails6.0.0
           - rails6.0.1
           - rails6.0.2.1
-          - rails6.0.2
           - rails7
           - rails_main
     env:

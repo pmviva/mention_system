@@ -6,7 +6,7 @@ on:
       - '*'
   push:
     branches:
-      - master
+      - rails-7
 jobs:
   sqlite:
     runs-on: ubuntu-latest

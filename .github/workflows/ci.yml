@@ -19,7 +19,7 @@ jobs:
           - rails6.0.2.1
           - rails6.0.2
           - rails7
-          - rails_master
+          - rails_main
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
       BUNDLE_PATH_RELATIVE_TO_CWD: true
@@ -51,7 +51,7 @@ jobs:
           - rails6.0.2.1
           - rails6.0.2
           - rails7
-          - rails_master
+          - rails_main
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
       BUNDLE_PATH_RELATIVE_TO_CWD: true

@@ -72,8 +72,7 @@ module MentionSystem
     # @param [Mentioner] mentioner - the {Mentioner} to process mentions from
     ###
     def process_mentions(mentioner)
-      handles = extract_handles_from_mentioner(mentioner)
-      mentionees = find_mentionees_by_handles(handles)
+      mentionees = find_mentionees_by_handles(mentioner)
 
       mentionees.each do |mentionee|
         if process_before_callbacks(mentioner, mentionee)

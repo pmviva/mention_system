@@ -1,6 +1,6 @@
 # MentionSystem
 
-[![Build Status](https://travis-ci.org/pmviva/mention_system.png?branch=master)](https://travis-ci.org/pmviva/mention_system)
+[![Build Status](https://github.com/pmviva/mention_system/actions/workflows/ci.yml/badge.svg)](https://github.com/pmviva/mention_system/actions)
 [![Gem Version](https://badge.fury.io/rb/mention_system.svg)](http://badge.fury.io/rb/mention_system)
 [![Code Climate](https://codeclimate.com/github/pmviva/mention_system/badges/gpa.svg)](https://codeclimate.com/github/pmviva/mention_system)
 

@@ -1,16 +1,16 @@
 # MentionSystem
 
-[![Build Status](https://travis-ci.org/pmviva/mention_system.png?branch=master)](https://travis-ci.org/pmviva/mention_system)
+[![Build Status](https://github.com/pmviva/mention_system/actions/workflows/ci.yml/badge.svg)](https://github.com/pmviva/mention_system/actions)
 [![Gem Version](https://badge.fury.io/rb/mention_system.svg)](http://badge.fury.io/rb/mention_system)
 [![Code Climate](https://codeclimate.com/github/pmviva/mention_system/badges/gpa.svg)](https://codeclimate.com/github/pmviva/mention_system)
 
 An active record mention system developed using ruby on rails applying domain driven design and test driven development principles.
 
-For rails 4 support use branch v0.0.7-stable.
+* For rails 4 support use branch v0.0.7-stable.
+* For rails 5 support use branch v0.1.1-stable.
+* For rails 6+ support use the latest version.
 
-For rails 5 support use branch v0.1.1-stable.
-
-This gem is heavily influenced by cmer/socialization.
+This gem is heavily influenced by [cmer/socialization.](https://github.com/cmer/socialization)
 
 ## Installation
 
